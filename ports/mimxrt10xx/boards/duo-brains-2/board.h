@@ -35,7 +35,7 @@
 // LED
 //--------------------------------------------------------------------+
 
-#define LED_PINMUX            IOMUXC_GPIO_06_GPIOMUX_IO6
+#define LED_PINMUX             IOMUXC_GPIO_06_GPIOMUX_IO06
 #define LED_PORT              GPIO1
 #define LED_PIN               6
 #define LED_STATE_ON          1
@@ -47,7 +47,7 @@
 
 // Number of neopixels
 #define NEOPIXEL_NUMBER       1
-#define NEOPIXEL_PINMUX       IOMUXC_GPIO_SD_05_GPIO2_IO5
+#define NEOPIXEL_PINMUX       IOMUXC_GPIO_SD_05_GPIO2_IO05
 #define NEOPIXEL_PORT         GPIO2
 #define NEOPIXEL_PIN          5
 
@@ -56,7 +56,7 @@
 //--------------------------------------------------------------------+
 
 // SW1 button
-#define BUTTON_PINMUX         IOMUXC_GPIO_00_GPIOMUX_IO0
+#define BUTTON_PINMUX         IOMUXC_GPIO_00_GPIOMUX_IO00
 #define BUTTON_PORT           GPIO1
 #define BUTTON_PIN            0
 #define BUTTON_STATE_ACTIVE   0
