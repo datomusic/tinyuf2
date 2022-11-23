@@ -67,8 +67,8 @@
 
 #define USB_VID           0x239A
 #define USB_PID           0x0077
-#define USB_MANUFACTURER  "NXP"
-#define USB_PRODUCT       "RT1010 EVK"
+#define USB_MANUFACTURER  "DATO"
+#define USB_PRODUCT       "DUO2"
 
 #define UF2_PRODUCT_NAME  USB_MANUFACTURER " " USB_PRODUCT
 #define UF2_BOARD_ID      "DUO-Brains-2.0-alpha"
